@@ -1,5 +1,5 @@
 {
-  "name": "api-response",
+  "name": "@climba03003/api-response",
   "version": "1.0.0",
   "description": "Standardize API Response",
   "main": "index.js",
