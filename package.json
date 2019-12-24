@@ -3,6 +3,7 @@
   "version": "1.0.1",
   "description": "Standardize API Response",
   "main": "index.js",
+  "types": "lib/index.d.ts",
   "directories": {
     "lib": "lib",
     "test": "test"
