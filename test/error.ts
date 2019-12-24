@@ -44,7 +44,9 @@ describe('error', function() {
     it('can pass fake Error', function() {
       const res = Response.parse(200, {});
       should(res).has.hasOwnProperty('message');
-      should(res.message).be.undefined();
+      should(res.message)
+        .be.String()
+        .and.eql('');
     });
   });
 });
