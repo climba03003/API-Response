@@ -7,15 +7,15 @@ describe('HTTPStatusCode', function() {
     it('200', function() {
       should(HTTPStatusCode[200])
         .be.String()
-        .and.eql(HTTPStatusCode.ACCEPTED);
+        .and.eql('OK');
     });
   });
 
   describe('word to number', function() {
-    it('ACCEPTED', function() {
-      should(HTTPStatusCode.ACCEPTED)
+    it('OK', function() {
+      should(HTTPStatusCode.OK)
         .be.Number()
-        .and.eql(HTTPStatusCode[200]);
+        .and.eql(200);
     });
   });
 });
